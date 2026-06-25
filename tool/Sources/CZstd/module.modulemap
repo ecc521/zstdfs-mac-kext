@@ -1,0 +1,5 @@
+module CZstd [system] {
+    header "/opt/homebrew/opt/zstd/include/zstd.h"
+    link "zstd"
+    export *
+}
